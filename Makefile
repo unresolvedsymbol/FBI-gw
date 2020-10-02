@@ -34,6 +34,16 @@ BANNER_IMAGE := meta/banner_3ds.cgfx
 ICON := meta/icon_3ds.png
 LOGO := meta/logo_3ds.bcma.lz
 
+MEMORY_TYPE := Application
+SYSTEM_MODE := 64MB
+SYSTEM_MODE_EXT := Legacy
+CPU_SPEED := 268Mhz
+ENABLE_L2_CACHE := true
+USE_ON_SD := true
+PRODUCT_CODE := CTR-P-CFBI
+UNIQUE_ID := 0xF8001
+CATEGORY := Application
+
 # INTERNAL #
 
 include buildtools/make_base
